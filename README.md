@@ -2,7 +2,7 @@
 
 ## Overview
 
-[UDAP](https://www.udap.org/) is a trust community protocol built on top of OAutn (Open Authorization) 2.0 and OIDC (OpenID Connect). It combines Public Key Infrastructure (PKI) with OAuth and OIDC to provide the trust community protocol. The specific trust community has a Certificate Authority (CA) or multiple CAs that issue X.509 certificates to all members of the community. These are not the same as SSL certificates that can be obtained by proving ownership of a domain like [Let's Encrypt](https://letsencrypt.org/). The X.509 certificates are issued out of band after proving the identity of the organization obtaining the certificate.
+[UDAP](https://www.udap.org/) is a trust community protocol built on top of OAuth (Open Authorization) 2.0 and OIDC (OpenID Connect). It combines Public Key Infrastructure (PKI) with OAuth and OIDC to provide the trust community protocol. The specific trust community has a Certificate Authority (CA) or multiple CAs that issue X.509 certificates to all members of the community. These are not the same as SSL certificates that can be obtained by proving ownership of a domain like [Let's Encrypt](https://letsencrypt.org/). The X.509 certificates are issued out of band after proving the identity of the organization obtaining the certificate.
 
 The public and private keys contained in the X.509 certificate are used to provide the signing keys and verifying keys for JSON Web Tokens (JWTs). The X.509 certificates are contained in the header of the JWTs moving the authentication mechanism to the application layer, as opposed to say Mutual TLS (mTLS) where the authentication sits between the application layer and the TCP/IP layer.
 
