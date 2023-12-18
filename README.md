@@ -45,7 +45,7 @@ At this point you will have one side (a client or a server) of a full UDAP imple
 ```mermaid
     graph TD;
     hl7-fhir-udap-common-->hl7-fhir-udap-client;
-    hl7-fhir-udap-client-->hl7-fhir-client-test-ui;
+    hl7-fhir-udap-client-->hl7-fhir-udap-client-test-ui;
 ```
 
 ***Server Overview***
