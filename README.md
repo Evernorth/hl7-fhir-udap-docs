@@ -14,7 +14,7 @@ The Proof of Concept, reference implementation is a four-repository collection f
 Links to the four repositories in the collection:
 - [hl7-fhir-udap-common](https://github.com/Evernorth/hl7-fhir-udap-common#readme)
 - [hl7-fhir-udap-client](https://github.com/Evernorth/hl7-fhir-udap-client#readme)
-- [hl7-fhir-udap-test-client-ui](https://github.com/Evernorth/hl7-fhir-udap-test-client-ui#readme)
+- [hl7-fhir-udap-client-test-ui](https://github.com/Evernorth/hl7-fhir-udap-client-test-ui#readme)
 - [hl7-fhir-udap-server](https://github.com/Evernorth/hl7-fhir-udap-server#readme)
 
 At a base level, a full UDAP implementation will include a UDAP enabled client and a UDAP enabled server.   
@@ -22,7 +22,7 @@ At a base level, a full UDAP implementation will include a UDAP enabled client a
 To build a UDAP enabled client with our collection of repos, you will need:
 - [hl7-fhir-udap-common](https://github.com/Evernorth/hl7-fhir-udap-common#readme)
 - [hl7-fhir-udap-client](https://github.com/Evernorth/hl7-fhir-udap-client#readme)
-- [hl7-fhir-udap-test-client-ui](https://github.com/Evernorth/hl7-fhir-udap-test-client-ui#readme)
+- [hl7-fhir-udap-client-test-ui](https://github.com/Evernorth/hl7-fhir-udap-client-test-ui#readme)
 
 To build a UDAP enabled server with our collection of repos, you will need:
 - [hl7-fhir-udap-common](https://github.com/Evernorth/hl7-fhir-udap-common#readme)
@@ -45,7 +45,7 @@ At this point you will have one side (a client or a server) of a full UDAP imple
 ```mermaid
     graph TD;
     hl7-fhir-udap-common-->hl7-fhir-udap-client;
-    hl7-fhir-udap-client-->hl7-fhir-test-client-ui;
+    hl7-fhir-udap-client-->hl7-fhir-client-test-ui;
 ```
 
 ***Server Overview***
@@ -66,7 +66,7 @@ See the [CONTRIBUTING](CONTRIBUTING.md) file for info on how to get involved.
 
 ## License
 
-The hl7-fhir-udap-test-client is Open Source Software released under the [Apache 2.0 license](https://www.apache.org/licenses/LICENSE-2.0.html).
+The hl7-fhir-udap-docs is Open Source Software released under the [Apache 2.0 license](https://www.apache.org/licenses/LICENSE-2.0.html).
 
 ## Original Contributors
 
